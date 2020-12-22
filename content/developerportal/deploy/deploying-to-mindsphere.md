@@ -36,6 +36,7 @@ To help you with your first MindSphere apps, there is also an example app which 
 To deploy and register your app within MindSphere you need the following prerequisites.
 
 * A MindSphere user account on a **Developer** or a **Start for Free** tenant
+* A tenant including the Developer Cockpit
 * A MindSphere developer role: either `mdsp:core:Developer` or `mdsp:core:DeveloperAdmin` — these are already granted on Start for Free tenants.
 * [Mendix Studio Pro](https://appstore.home.mendix.com/index3.html)
 
@@ -368,7 +369,7 @@ If you are on a **Developer** tenant, no additional MindSphere API roles are ass
 Please note, for further configuration of your registration e.g. CSPs or additional roles, please use the Developer Cockpit.
 
 {{% alert type="info" %}}
-You can have multiple versions of your app within the Developer Cockpit, for example versions with different configurations or roles and scopes. 
+You can have multiple versions of your app within the Developer Cockpit, for example versions with different configurations or roles and scopes.
 
 The deployment registered via the **Auto Registration** process is *always mapped to the version created during the process*. If you want to create additional versions of your app, you can do this by manually creating a new version within the Developer Cockpit.
 {{% /alert %}}
